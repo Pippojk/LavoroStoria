@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.parent{
+    padding-top: 2vh;
+    padding-right: 5%;
+    padding-left: 5%;
+    
+    width: 90%;
+    height: 40vh;
+    background-color: whitesmoke;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.uno{
+    height: 80%;
+    width: 40vb;
+    background-color: linear-gradient(to bottom, whitesmoke, white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px gray;
+    font-size: 35px;
+} 
+
+.uuno{
+    background-image: url("png/ori.jpg");
+    background-size: cover; /* Adatta l'immagine coprendo tutto il div */
+    background-position:top; /* Centra l'immagine */
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.uuno h3{
+    background: rgba(0, 0, 0, 0.054); 
+  backdrop-filter: blur(4px); /* Effetto blur */
+  border-radius: 10px; /* Angoli arrotondati */
+   /* Per indicare che è cliccabile */
+}
+
+.due{
+    background-image: url("png/soc.jpg");
+    background-size: cover; /* Adatta l'immagine coprendo tutto il div */
+    background-position:top; /* Centra l'immagine */
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.due h3{
+    background: rgba(0, 0, 0, 0.054); 
+  backdrop-filter: blur(4px); /* Effetto blur */
+  border-radius: 10px; /* Angoli arrotondati */
+   /* Per indicare che è cliccabile */
+}
+
+.tre{
+    height: 30vh;
+    width: 40vb;
+
+    background-image: url("png/conq.jpg");
+    background-size: cover; /* Adatta l'immagine coprendo tutto il div */
+    background-position: center; /* Centra l'immagine */
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font-weight: bold;
+    box-shadow: 10px 10px 10px gray;
+    font-size: 35px;
+
+    color: whitesmoke;
+}
+
+.tre h3{
+    background: rgba(0, 0, 0, 0.054); 
+  backdrop-filter: blur(4px); /* Effetto blur */
+  border-radius: 10px; /* Angoli arrotondati */
+   /* Per indicare che è cliccabile */
+}
+
+.parent2{
+    padding-right: 5%;
+    padding-left: 5%;
+
+    width: 90%;
+    height: 40vh;
+    background-color: linear-gradient(to bottom, whitesmoke, #333333);
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title{
+    padding-top: 5px;
+    height: 15vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(to bottom, #333333, whitesmoke);
+}
+
+.title h1, .title h2{
+    color: aliceblue;
+}
+
+.IM{
+    position: absolute;
+  top: 60vh;
+  left: 20vb;
+  padding-right: 700px;
+  
+}
+
+.IM img{
+    width: 60%;
+    height: 60%;
+}
+
+.IM h3{
+    margin-top: 20px;
+    display: none;
+    width: 60%;
+}
